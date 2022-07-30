@@ -28,7 +28,6 @@ html {
 }
 
 body {
-  height: inherit;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -37,7 +36,7 @@ body {
 }
 
 .columns-preview-card {
-  height: 100vh;
+  height: 100%;
   width: 65%;
   margin: auto;
 }
@@ -106,5 +105,18 @@ body {
 @media (max-width: 375px) {
   .columns-preview-card {
     flex-direction: column;
+    width: 85%;
+    margin-top: 3rem;
+  }
+  .columns-preview-card #sedan-card {
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0rem;
+    border-top-right-radius: 0.5rem;
+  }
+  .columns-preview-card #luxury-card {
+    margin-bottom: 3rem;
+    border-top-right-radius: 0rem;
+    border-bottom-left-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
   }
 }/*# sourceMappingURL=styles.css.map */

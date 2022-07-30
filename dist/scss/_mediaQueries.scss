@@ -1,0 +1,22 @@
+@media (max-width: 375px) {
+
+    .columns-preview-card {
+        flex-direction: column;
+        width: 85%;
+        margin-top: 3rem;
+
+        #sedan-card {
+            border-top-left-radius: 0.5rem;
+            border-bottom-left-radius: 0rem;
+            border-top-right-radius: 0.5rem;
+        }
+
+        #luxury-card {
+            margin-bottom: 3rem;
+            border-top-right-radius: 0rem;
+            border-bottom-left-radius: 0.5rem;
+            border-bottom-right-radius: 0.5rem;
+        }
+    }
+
+}
