@@ -38,7 +38,7 @@ body {
 
 .columns-preview-card {
   height: 100vh;
-  width: 80%;
+  width: 65%;
   margin: auto;
 }
 .columns-preview-card #sedan-card {
@@ -49,11 +49,19 @@ body {
 .columns-preview-card #sedan-card .card-body_learnMoreBtn {
   color: hsl(31deg, 77%, 52%);
 }
+.columns-preview-card #sedan-card .card-body_learnMoreBtn:hover {
+  color: hsl(0deg, 0%, 95%);
+  background-color: hsl(31deg, 77%, 52%);
+}
 .columns-preview-card #suv-card {
   background-color: hsl(184deg, 100%, 22%);
 }
 .columns-preview-card #suv-card .card-body_learnMoreBtn {
   color: hsl(184deg, 100%, 22%);
+}
+.columns-preview-card #suv-card .card-body_learnMoreBtn:hover {
+  color: hsl(0deg, 0%, 95%);
+  background-color: hsl(184deg, 100%, 22%);
 }
 .columns-preview-card #luxury-card {
   background-color: hsl(179deg, 100%, 13%);
@@ -62,6 +70,10 @@ body {
 }
 .columns-preview-card #luxury-card .card-body_learnMoreBtn {
   color: hsl(179deg, 100%, 13%);
+}
+.columns-preview-card #luxury-card .card-body_learnMoreBtn:hover {
+  color: hsl(0deg, 0%, 95%);
+  background-color: hsl(179deg, 100%, 13%);
 }
 .columns-preview-card_element {
   padding: 2rem 2.5rem 3rem 3rem;
@@ -87,4 +99,12 @@ body {
   width: 50%;
   padding: 0.9rem;
   border-radius: 1.5rem;
+  cursor: pointer;
+  border: 1px solid hsl(0deg, 0%, 95%);
+}
+
+@media (max-width: 375px) {
+  .columns-preview-card {
+    flex-direction: column;
+  }
 }/*# sourceMappingURL=styles.css.map */

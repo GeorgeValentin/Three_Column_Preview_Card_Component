@@ -1,6 +1,6 @@
 .columns-preview-card {
     height: 100vh;
-    width: 80%;
+    width: 65%;
     margin: auto;
 
     #sedan-card {
@@ -12,6 +12,11 @@
 
             &_learnMoreBtn {
                 color: $bright-orange;
+
+                &:hover {
+                    color: $very-light-gray;
+                    background-color: $bright-orange;
+                }
             }
 
         }
@@ -24,6 +29,11 @@
 
             &_learnMoreBtn {
                 color: $dark-cyan;
+                
+                &:hover {
+                    color: $very-light-gray;
+                    background-color: $dark-cyan;
+                }
             }
 
         }
@@ -38,6 +48,11 @@
 
             &_learnMoreBtn {
                 color: $very-dark-cyan;
+
+                &:hover {
+                    color: $very-light-gray;
+                    background-color: $very-dark-cyan;
+                }
             }
 
         }
@@ -76,6 +91,8 @@
                 width: 50%;
                 padding: 0.9rem;
                 border-radius: 1.5rem;
+                cursor: pointer;
+                border: 1px solid $very-light-gray;
             }
 
         }
