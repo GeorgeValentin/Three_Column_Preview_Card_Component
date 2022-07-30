@@ -13,7 +13,7 @@
 ### Desktop
 <p align="center">
     <img
-        src="./screenshots/Desktop_Website_ScreenShot.PNG"
+        src="./screenshots/Desktop_Website_ScreenShot.png"
         alt="Website Desktop Screenshot"
     >
 </p>
@@ -21,7 +21,7 @@
 ### Mobile Phone
 <p align="center">
     <img
-        src="./screenshots/Mobile_Website_ScreenShot.PNG"
+        src="./screenshots/Mobile_Website_ScreenShot.png"
         alt="Website Mobile Screenshot"
     >
 </p>
