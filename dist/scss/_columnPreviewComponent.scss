@@ -5,6 +5,8 @@
 
     #sedan-card {
         background-color: $bright-orange;
+        border-top-left-radius: 0.5rem;
+        border-bottom-left-radius: 0.5rem;
 
         .card-body {
 
@@ -29,6 +31,8 @@
 
     #luxury-card {
         background-color: $very-dark-cyan;
+        border-top-right-radius: 0.5rem;
+        border-bottom-right-radius: 0.5rem;
 
         .card-body {
 
