@@ -28,6 +28,7 @@ html {
 }
 
 body {
+  height: inherit;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -89,7 +90,7 @@ body {
 .columns-preview-card_element .card-body_content {
   color: hsla(0deg, 0%, 100%, 0.75);
   font-size: 0.9rem;
-  width: 93%;
+  width: 89%;
   line-height: 1.5;
   margin-bottom: 5rem;
 }
@@ -103,6 +104,9 @@ body {
 }
 
 @media (max-width: 375px) {
+  body {
+    height: unset;
+  }
   .columns-preview-card {
     flex-direction: column;
     width: 85%;
@@ -118,5 +122,9 @@ body {
     border-top-right-radius: 0rem;
     border-bottom-left-radius: 0.5rem;
     border-bottom-right-radius: 0.5rem;
+  }
+  .columns-preview-card_element .card-body_content {
+    width: 100%;
+    line-height: 1.75;
   }
 }/*# sourceMappingURL=styles.css.map */

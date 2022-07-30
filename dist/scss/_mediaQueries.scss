@@ -1,5 +1,9 @@
 @media (max-width: 375px) {
 
+    body {
+        height: unset;
+    }
+
     .columns-preview-card {
         flex-direction: column;
         width: 85%;
@@ -16,6 +20,18 @@
             border-top-right-radius: 0rem;
             border-bottom-left-radius: 0.5rem;
             border-bottom-right-radius: 0.5rem;
+        }
+
+        &_element {
+
+            .card-body {
+
+                &_content {
+                    width: 100%;
+                    line-height: 1.75;
+                }
+
+            }
         }
     }
 
