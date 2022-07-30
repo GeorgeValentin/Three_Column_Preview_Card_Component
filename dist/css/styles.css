@@ -1,3 +1,86 @@
+.flex {
+  display: flex;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+.centered-flex-container {
+  justify-content: center;
+  align-items: center;
+}
+
+.text-centered {
+  text-align: center;
+}
+
+.content-left-aligned {
+  text-align: left;
+}
+
+html {
+  height: 100%;
+}
+
 body {
-  background-color: red;
+  height: inherit;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lexend Deca", sans-serif;
+  background-color: hsla(0deg, 0%, 100%, 0.75);
+}
+
+.columns-preview-card {
+  height: 100vh;
+  width: 80%;
+  margin: auto;
+}
+.columns-preview-card #sedan-card {
+  background-color: hsl(31deg, 77%, 52%);
+}
+.columns-preview-card #sedan-card .card-body_learnMoreBtn {
+  color: hsl(31deg, 77%, 52%);
+}
+.columns-preview-card #suv-card {
+  background-color: hsl(184deg, 100%, 22%);
+}
+.columns-preview-card #suv-card .card-body_learnMoreBtn {
+  color: hsl(184deg, 100%, 22%);
+}
+.columns-preview-card #luxury-card {
+  background-color: hsl(179deg, 100%, 13%);
+}
+.columns-preview-card #luxury-card .card-body_learnMoreBtn {
+  color: hsl(179deg, 100%, 13%);
+}
+.columns-preview-card_element {
+  padding: 2rem 2.5rem 3rem 3rem;
+}
+.columns-preview-card_element .card-header_image {
+  margin-bottom: 1.5rem;
+}
+.columns-preview-card_element .card-header_title {
+  font-family: "Big Shoulders Display", cursive;
+  font-size: 2.25rem;
+  color: hsl(0deg, 0%, 95%);
+  margin-bottom: 2rem;
+}
+.columns-preview-card_element .card-body_content {
+  color: hsla(0deg, 0%, 100%, 0.75);
+  font-size: 0.9rem;
+  width: 93%;
+  line-height: 1.5;
+  margin-bottom: 5rem;
+}
+.columns-preview-card_element .card-body_learnMoreBtn {
+  background-color: hsl(0deg, 0%, 95%);
+  width: 50%;
+  padding: 0.9rem;
+  border-radius: 1.5rem;
 }/*# sourceMappingURL=styles.css.map */

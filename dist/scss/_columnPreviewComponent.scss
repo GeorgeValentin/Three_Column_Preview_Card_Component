@@ -1,0 +1,79 @@
+.columns-preview-card {
+    height: 100vh;
+    width: 80%;
+    margin: auto;
+
+    #sedan-card {
+        background-color: $bright-orange;
+
+        .card-body {
+
+            &_learnMoreBtn {
+                color: $bright-orange;
+            }
+
+        }
+    }
+
+    #suv-card {
+        background-color: $dark-cyan;
+
+        .card-body {
+
+            &_learnMoreBtn {
+                color: $dark-cyan;
+            }
+
+        }
+    }
+
+    #luxury-card {
+        background-color: $very-dark-cyan;
+
+        .card-body {
+
+            &_learnMoreBtn {
+                color: $very-dark-cyan;
+            }
+
+        }
+    }
+
+    &_element {
+        padding: 2rem 2.5rem 3rem 3rem;
+
+        .card-header {
+
+            &_image {
+                margin-bottom: 1.5rem;
+            }
+
+            &_title {
+                font-family: 'Big Shoulders Display', cursive;
+                font-size: 2.25rem;
+                color: $very-light-gray;
+                margin-bottom: 2rem;
+            }
+
+        }
+
+        .card-body {
+
+            &_content {
+                color: $transparent-white;
+                font-size: 0.9rem;
+                width: 93%;
+                line-height: 1.5;
+                margin-bottom: 5rem;
+            }
+
+            &_learnMoreBtn {
+                background-color: $very-light-gray;
+                width: 50%;
+                padding: 0.9rem;
+                border-radius: 1.5rem;
+            }
+
+        }
+    }
+}
